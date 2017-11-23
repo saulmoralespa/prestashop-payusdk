@@ -1,0 +1,91 @@
+.form-container-payusdk {
+    display: none;
+}
+input.form-payu {
+    text-indent: 30px;
+}
+input.form-payu, label.label-payu, select.form-payu {
+    display: block;
+    margin: auto;
+}
+input.form-payu:focus {
+    outline: none;
+    box-shadow: 0 0 4px #0096de;
+    -webkit-box-shadow: 0 0 4px #0096de;
+    -ms-box-shadow: 0 0 4px #0096de;
+    -moz-box-shadow: 0 0 4px #0096de;
+    -o-box-shadow: 0 0 4px #0096de;
+
+}
+input[type="text"].form-payu {
+    height: 40px;
+}
+input[type="submit"].form-payu  {
+    background-color: #31353d;
+    display: block;
+    cursor: pointer;
+    color: #fcfcfc;
+    padding: 11px 40px 12px 18px;
+    font: 12px Arial, Helvetica, sans-serif;
+	border: 1px none;
+}
+
+.form-container-payusdk .label{
+	color: #000 !important;
+}
+
+.form-container-payusdk .exclusive {
+    border: 1px none #d6d4d4!important;
+    color: #ffffff!important;
+    background: #000000 !important;
+	display: block;
+	margin: 0px auto;
+}
+.form-container-payusdk .exclusive span {
+    font-size: 14px;
+    line-height: 44px;
+    padding: 0px 30px;
+    display: block !important;
+}
+
+.form-container-payusdk .opc-overlay {
+    min-height: 60px;
+    background: #fff url(../img/ajax-loader.gif) no-repeat center center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 4;
+    opacity: .5;
+	display: none;
+}
+
+#payusdk-credit {
+    display: none;
+}
+#payusdk-cash {
+    display: none;
+}
+#payusdk-pse {
+    display: none;
+}
+#payusdk-cash .gray-scale  {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+#iframe-payusdk {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 70%;
+}
+#msj-error{
+	display: none;
+}
+img.change-cash {
+    cursor: pointer;
+}
+div#alertpayusdk {
+    display: none;
+}
