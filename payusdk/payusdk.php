@@ -22,7 +22,7 @@ class Payusdk extends PaymentModule
         $this->author = 'Saul Morales Pacheco';
         $this->need_instance = 1;
         $this->bootstrap = true;
-        $this->ps_versions_compliancy = array('min' => '1.6.0', 'max' => '1.7');
+        $this->ps_versions_compliancy = array('min' => '1.6.0', 'max' => _PS_VERSION_);
 
         $config = Configuration::getMultiple(array('APIKEY','APILOGIN','MERCHANTID', 'ACCOUNTID','ISTEST'));
         if (isset($config['APIKEY']))
